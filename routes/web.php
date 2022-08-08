@@ -24,7 +24,7 @@ Route::get('clear', function () {
 	Artisan::call('config:clear');
 	Artisan::call('config:cache');
 });
-Route::get('clear', function () {
+Route::get('clear2', function () {
 	Artisan::call('config:clear');
 	return back();
 })->name('configClear');
